@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Artista Paglabas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<header class="navbar" id="navbar">
+  <div class="nav-brand">
+    <div class="nav-logo"><span>G</span></div>
+    <div>
+      <div class="nav-name">Artista Paglabas</div>
+      <div class="nav-sub">Est. 2024 · Caloocan, Philippines</div>
+    </div>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#barbers">Barbers</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#location">Location</a></li>
+  </ul>
+
+  <a href="#booking" class="nav-btn">Book Now</a>
+
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ═══ MOBILE MENU ═══ -->
+<div class="mob-menu" id="mobMenu" aria-hidden="true">
+  <div class="mob-header">
+    <div class="nav-logo"><span>G</span></div>
+    <div>
+      <div class="mob-name">Artista Paglabas</div>
+      <div class="mob-tag">Est. 2024</div>
+    </div>
+  </div>
+
+  <ul class="mob-nav">
+    <li><a href="#services" class="mob-link">Services</a></li>
+    <li><a href="#barbers"  class="mob-link">Barbers</a></li>
+    <li><a href="#gallery"  class="mob-link">Gallery</a></li>
+    <li><a href="#reviews"  class="mob-link">Reviews</a></li>
+    <li><a href="#location" class="mob-link">Location</a></li>
+  </ul>
+
+  <button class="mob-book mob-link" onclick="location.href='#booking'">Reserve Your Chair</button>
+  <p class="mob-foot">Est. 2024 · Caloocan, Philippines</p>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hero-left">
+    <div class="hero-pre">Est. 2024 — Caloocan's Finest</div>
+    <h1 class="hero-h1">
+      Artista
+      <em>Paglabas</em>
+    </h1>
+    <div class="hero-bar"></div>
+    <p class="hero-desc">A gentleman's sanctuary for over a century. Where master craftsmen and timeless tradition meet in every cut.</p>
+    <div class="hero-actions">
+      <a href="#booking" class="btn-sage">Reserve Your Chair</a>
+      <a href="#services" class="btn-ghost">View Services</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=900&q=80&fit=crop" alt="Barbershop interior" onerror="this.style.display='none'">
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item"><div class="stat-n">2</div><div class="stat-l">Years of Service</div></div>
+    <div class="stat-item"><div class="stat-n">3</div><div class="stat-l">Master Barbers</div></div>
+    <div class="stat-item"><div class="stat-n">12K+</div><div class="stat-l">Happy Gentlemen</div></div>
+    <div class="stat-item"><div class="stat-n">4.9★</div><div class="stat-l">Average Rating</div></div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee-bar">
+  <div class="marquee-track">
+    <span class="marquee-item">✦ Master Craftsmen</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Est. 1923 Manila</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Premium Grooming</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Hot Towel Shaves</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Walk-ins Welcome</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Intramuros, Manila</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Open Mon – Sat</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Tradition & Craft</span>
+    <span class="marquee-item">✦ Master Craftsmen</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Est. 1923 Manila</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Premium Grooming</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Hot Towel Shaves</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Walk-ins Welcome</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Intramuros, Manila</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Open Mon – Sat</span>
+    <span class="marquee-item"><span class="m-dot">·</span> Tradition & Craft</span>
+  </div>
+</div>
+
+<!-- ═══ SERVICES ═══ -->
+<section id="services">
+  <div class="sec-head">
+    <div class="sec-tag">The Services</div>
+    <h2 class="sec-title">Our <em>Specialties</em></h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc" style="margin-top:14px">Each treatment delivered with patience and precision. Click a service to pre-fill your booking.</p>
+  </div>
+  <div class="services-grid">
+
+    <div class="svc-card reveal">
+      <div class="svc-img-wrap">
+        <img class="svc-img" src="images/tf.jpg" alt="" onerror="this.style.display='none'">
+        <span class="svc-badge">Popular</span>
+      </div>
+      <div class="svc-body">
+        <div class="svc-name">Classic Gentleman's Cut</div>
+        <div class="svc-desc">A timeless scissor cut shaped to perfection, finished with a warm towel press and pomade styling.</div>
+        <div class="svc-row"><div class="svc-price">₱350</div><div class="svc-dur">45 min</div></div>
+        <button class="svc-btn" onclick="selectService(this,'Classic Gentleman','₱350','45 min')">Select Service</button>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img-wrap">
+        <img class="svc-img" src="images/ml.jpg" alt="" onerror="this.style.display='none'">
+        <span class="svc-badge">Signature</span>
+      </div>
+      <div class="svc-body">
+        <div class="svc-name">Royal Hot Towel Shave</div>
+        <div class="svc-desc">Traditional straight-razor shave with steaming towels, artisan pre-shave oil, and hand-whipped lather.</div>
+        <div class="svc-row"><div class="svc-price">₱280</div><div class="svc-dur">30 min</div></div>
+        <button class="svc-btn" onclick="selectService(this,'Royal Hot Towel Shave','₱280','30 min')">Select Service</button>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img-wrap">
+        <img class="svc-img" src="images/tp.jpg" alt="" onerror="this.style.display='none'">
+        <span class="svc-badge">Best Value</span>
+      </div>
+      <div class="svc-body">
+        <div class="svc-name">The Grand Combo</div>
+        <div class="svc-desc">Our full-service ceremony — gentleman's cut paired with the complete royal shave experience.</div>
+        <div class="svc-row"><div class="svc-price">₱580</div><div class="svc-dur">75 min</div></div>
+        <button class="svc-btn" onclick="selectService(this,'The Grand Combo','₱580','75 min')">Select Service</button>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img-wrap">
+        <img class="svc-img" src="images/uc.jpg" alt="" onerror="this.style.display='none'">
+      </div>
+      <div class="svc-body">
+        <div class="svc-name">Beard Sculpt & Style</div>
+        <div class="svc-desc">Precision beard shaping with razor-sharp lines and a nourishing conditioning oil treatment.</div>
+        <div class="svc-row"><div class="svc-price">₱220</div><div class="svc-dur">25 min</div></div>
+        <button class="svc-btn" onclick="selectService(this,'Beard Sculpt & Style','₱220','25 min')">Select Service</button>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img-wrap">
+        <img class="svc-img" src="images/bc.jpg" alt="" onerror="this.style.display='none'">
+      </div>
+      <div class="svc-body">
+        <div class="svc-name">Fade & Taper</div>
+        <div class="svc-desc">Clean skin fade or precision taper with a razor-sharp edge-up. Machine artistry at its finest.</div>
+        <div class="svc-row"><div class="svc-price">₱320</div><div class="svc-dur">40 min</div></div>
+        <button class="svc-btn" onclick="selectService(this,'Fade & Taper','₱320','40 min')">Select Service</button>
+      </div>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-img-wrap">
+        <img class="svc-img" src="images/tc.jpg" alt="" onerror="this.style.display='none'">
+      </div>
+      <div class="svc-body">
+        <div class="svc-name">Scalp & Head Massage</div>
+        <div class="svc-desc">Therapeutic hot oil scalp massage using premium herbal oils — the gentleman's restorative ritual.</div>
+        <div class="svc-row"><div class="svc-price">₱180</div><div class="svc-dur">20 min</div></div>
+        <button class="svc-btn" onclick="selectService(this,'Scalp & Head Massage','₱180','20 min')">Select Service</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ BARBERS ═══ -->
+<section id="barbers">
+  <div class="sec-head">
+    <div class="sec-tag">The Masters</div>
+    <h2 class="sec-title">Meet Our <em>Barbers</em></h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc" style="margin-top:14px">Decades of tradition carried in their hands. Tap any open slot to reserve your time.</p>
+  </div>
+  <div class="barbers-grid">
+
+    <div class="barber-card reveal">
+      <div class="barber-img-wrap">
+        <img class="barber-photo" src="images/kent.png" alt="Ernesto" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="barber-photo-fallback" style="display:none">✂</div>
+        <div class="barber-img-foot"><div class="barber-img-role">Senior Master Barber</div></div>
+      </div>
+      <div class="barber-body">
+        <div class="barber-name">Kent Dela Cruz</div>
+        <div class="barber-yrs">22 Years Experience</div>
+        <div class="barber-spec">Classic Cuts · Royal Shaves · Precision Styling</div>
+        <div class="avail-lbl">Today's Availability</div>
+        <div class="slots">
+          <span class="slot taken">9:00 AM</span>
+          <span class="slot taken">10:00 AM</span>
+          <span class="slot open" onclick="selectSlot(this,'Ernesto de la Cruz','11:00 AM')">11:00 AM</span>
+          <span class="slot open" onclick="selectSlot(this,'Ernesto de la Cruz','1:00 PM')">1:00 PM</span>
+          <span class="slot taken">2:00 PM</span>
+          <span class="slot open" onclick="selectSlot(this,'Ernesto de la Cruz','3:00 PM')">3:00 PM</span>
+          <span class="slot taken">4:00 PM</span>
+          <span class="slot open" onclick="selectSlot(this,'Ernesto de la Cruz','5:00 PM')">5:00 PM</span>
+        </div>
+        <div class="b-status s-open"><div class="pip"></div>Available Today</div>
+      </div>
+    </div>
+
+    <div class="barber-card reveal">
+      <div class="barber-img-wrap">
+        <img class="barber-photo" src="images/jm.png" alt="Don Rodrigo" style="filter:grayscale(80%) brightness(.6)" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="barber-photo-fallback" style="display:none;background:var(--grey-100)">🪒</div>
+        <div class="barber-img-foot" style="background:linear-gradient(transparent,rgba(14,14,12,.92))">
+          <div class="barber-img-role" style="color:var(--grey-300)">Fully Booked Today</div>
+        </div>
+      </div>
+      <div class="barber-body">
+        <div class="barber-name">Juan Miguel Guerrero</div>
+        <div class="barber-yrs" style="color:var(--grey-300)">15 Years Experience</div>
+        <div class="barber-spec">Straight Razor · Beard Work · Classic Fades</div>
+        <div class="avail-lbl">Today's Availability</div>
+        <div class="slots">
+          <span class="slot taken">9:00 AM</span><span class="slot taken">10:00 AM</span>
+          <span class="slot taken">11:00 AM</span><span class="slot taken">1:00 PM</span>
+          <span class="slot taken">2:00 PM</span><span class="slot taken">3:00 PM</span>
+          <span class="slot taken">4:00 PM</span><span class="slot taken">5:00 PM</span>
+        </div>
+        <div class="b-status s-full"><div class="pip"></div>Fully Booked Today</div>
+      </div>
+    </div>
+
+    <div class="barber-card reveal">
+      <div class="barber-img-wrap">
+        <img class="barber-photo" src="images/jc.png" alt="Marco" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="barber-photo-fallback" style="display:none">👑</div>
+        <div class="barber-img-foot"><div class="barber-img-role">Head Barber</div></div>
+      </div>
+      <div class="barber-body">
+        <div class="barber-name">JC Jadulan</div>
+        <div class="barber-yrs">10 Years Experience</div>
+        <div class="barber-spec">Fades · Tapers · Modern & Classic Styles</div>
+        <div class="avail-lbl">Today's Availability</div>
+        <div class="slots">
+          <span class="slot taken">9:00 AM</span>
+          <span class="slot open" onclick="selectSlot(this,'Marco Antonio','10:00 AM')">10:00 AM</span>
+          <span class="slot open" onclick="selectSlot(this,'Marco Antonio','11:00 AM')">11:00 AM</span>
+          <span class="slot open" onclick="selectSlot(this,'Marco Antonio','1:00 PM')">1:00 PM</span>
+          <span class="slot open" onclick="selectSlot(this,'Marco Antonio','2:00 PM')">2:00 PM</span>
+          <span class="slot taken">3:00 PM</span>
+          <span class="slot open" onclick="selectSlot(this,'Marco Antonio','4:00 PM')">4:00 PM</span>
+          <span class="slot open" onclick="selectSlot(this,'Marco Antonio','5:00 PM')">5:00 PM</span>
+        </div>
+        <div class="b-status s-open"><div class="pip"></div>Available Today</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ GALLERY ═══ -->
+<section id="gallery" style="padding-bottom:100px">
+  <div class="sec-head">
+    <div class="sec-tag" style="color:var(--sage-light)">The Archive</div>
+    <h2 class="sec-title sec-title-w">Our <em>Gallery</em></h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc sec-desc-w" style="margin-top:14px">A curated look at our craft and the atmosphere of The Grand Barber.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="g-item reveal">
+      <img class="g-img" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=900&q=80&fit=crop" alt="" onerror="this.style.display='none'">
+      <div class="g-overlay"><span class="g-lbl">The Grand Shop Interior</span></div>
+    </div>
+    <div class="g-item reveal">
+      <img class="g-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80&fit=crop" alt="" onerror="this.style.display='none'">
+      <div class="g-overlay"><span class="g-lbl">Beard Sculpting</span></div>
+    </div>
+    <div class="g-item reveal">
+      <img class="g-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80&fit=crop" alt="" onerror="this.style.display='none'">
+      <div class="g-overlay"><span class="g-lbl">Classic Precision Cut</span></div>
+    </div>
+    <div class="g-item reveal">
+      <img class="g-img" src="https://images.unsplash.com/photo-1534778558916-d8b6c5d7d5b1?w=600&q=80&fit=crop" alt="" onerror="this.style.display='none'">
+      <div class="g-overlay"><span class="g-lbl">Royal Hot Towel Shave</span></div>
+    </div>
+    <div class="g-item reveal">
+      <img class="g-img" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80&fit=crop" alt="" onerror="this.style.display='none'">
+      <div class="g-overlay"><span class="g-lbl">The Gentleman's Tools</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ BOOKING ═══ -->
+<section id="booking">
+  <div class="sec-head">
+    <div class="sec-tag" style="color:var(--sage-light)">Reservations</div>
+    <h2 class="sec-title sec-title-w">Book Your <em>Appointment</em></h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc sec-desc-w" style="margin-top:14px">Select a service or time slot above to pre-fill the form. Every reservation honoured with punctuality.</p>
+  </div>
+
+  <div class="booking-wrap">
+    <div class="booking-card">
+      <div class="booking-head"><div class="booking-head-title">Reservation Form — The Grand Barber</div></div>
+      <div class="booking-body">
+
+        <div class="recap" id="recap">
+          <div class="recap-lbl">Your Selection</div>
+          <div id="recapDetails"></div>
+        </div>
+
+        <form id="bookingForm">
+          <div class="f-row">
+            <div class="field"><label class="f-lbl">First Name</label><input class="f-in" type="text" name="fname" placeholder="Juan" required></div>
+            <div class="field"><label class="f-lbl">Last Name</label><input class="f-in" type="text" placeholder="Santos" required></div>
+          </div>
+          <div class="field"><label class="f-lbl">Mobile Number</label><input class="f-in" type="tel" placeholder="+63 912 345 6789" required></div>
+          <div class="field"><label class="f-lbl">Email Address</label><input class="f-in" type="email" placeholder="gentleman@email.com"></div>
+          <div class="field">
+            <label class="f-lbl">Select Service</label>
+            <select class="f-sel" id="serviceSelect" required>
+              <option value="">— Choose a Service —</option>
+              <option>Classic Gentleman's Cut — ₱350</option>
+              <option>Royal Hot Towel Shave — ₱280</option>
+              <option>The Grand Combo — ₱580</option>
+              <option>Beard Sculpt & Style — ₱220</option>
+              <option>Fade & Taper — ₱320</option>
+              <option>Scalp & Head Massage — ₱180</option>
+            </select>
+          </div>
+          <div class="f-row">
+            <div class="field">
+              <label class="f-lbl">Barber</label>
+              <select class="f-sel" id="barberSelect" required>
+                <option value="">— Select Barber —</option>
+                <option>Ernesto de la Cruz</option>
+                <option>Marco Antonio</option>
+                <option disabled>Don Rodrigo Vega — Fully Booked</option>
+              </select>
+            </div>
+            <div class="field">
+              <label class="f-lbl">Date</label>
+              <input class="f-in" type="date" id="dateInput" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="f-lbl">Preferred Time</label>
+            <select class="f-sel" id="timeSelect" required>
+              <option value="">— Select Time —</option>
+              <option>9:00 AM</option><option>10:00 AM</option><option>11:00 AM</option>
+              <option>1:00 PM</option><option>2:00 PM</option><option>3:00 PM</option>
+              <option>4:00 PM</option><option>5:00 PM</option>
+            </select>
+          </div>
+          <div class="field"><label class="f-lbl">Special Requests</label><textarea class="f-ta" placeholder="Style preferences, notes for your barber..."></textarea></div>
+          <button type="submit" class="book-btn">Confirm Reservation</button>
+        </form>
+
+      </div>
+    </div>
+
+    <div class="booking-sidebar">
+      <div class="side-card">
+        <div class="side-head">Shop Info</div>
+        <div class="side-body">
+          <div class="s-row"><span class="s-icon">📍</span><div><div class="s-lbl">Address</div><div class="s-val">12 Real St., Intramuros, Manila</div></div></div>
+          <div class="s-row"><span class="s-icon">📞</span><div><div class="s-lbl">Phone</div><div class="s-val">+63 2 8888 1923</div></div></div>
+          <div class="s-row"><span class="s-icon">🕐</span><div><div class="s-lbl">Hours</div><div class="s-val">Mon–Sat · 9AM – 6PM</div></div></div>
+        </div>
+      </div>
+      <div class="side-card">
+        <div class="side-head">Booking Policy</div>
+        <div class="side-body"><p class="policy">Please arrive 5 minutes early. Cancellations must be made at least 2 hours prior. Walk-ins welcome subject to availability.</p></div>
+      </div>
+      <div class="side-card">
+        <div class="side-head">Why Choose Us</div>
+        <div class="side-body">
+          <div class="s-row"><span class="s-icon">✦</span><div><div class="s-lbl">100 Years of Craft</div><div class="s-val">Serving Manila since 1923</div></div></div>
+          <div class="s-row"><span class="s-icon">🎩</span><div><div class="s-lbl">Premium Products</div><div class="s-val">Finest imported grooming</div></div></div>
+          <div class="s-row"><span class="s-icon">⭐</span><div><div class="s-lbl">4.9 Star Rated</div><div class="s-val">Top-rated in Manila</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ REVIEWS ═══ -->
+<section id="reviews">
+  <div class="sec-head">
+    <div class="sec-tag">Testimonials</div>
+    <h2 class="sec-title">What Gentlemen <em>Say</em></h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc" style="margin-top:14px">Built on the trust and loyalty of every gentleman who walks through our doors.</p>
+  </div>
+
+  <div class="reviews-grid" id="reviewsGrid"></div>
+
+  <div class="write-review">
+    <hr style="border:none;border-top:1px solid var(--grey-100);margin:0 auto 44px;max-width:200px">
+    <h3 class="wr-title">Share Your <em>Experience</em></h3>
+    <div class="star-row">
+      <button class="star-btn" type="button">★</button>
+      <button class="star-btn" type="button">★</button>
+      <button class="star-btn" type="button">★</button>
+      <button class="star-btn" type="button">★</button>
+      <button class="star-btn" type="button">★</button>
+    </div>
+    <form id="reviewForm" class="wr-form">
+      <div class="f-row" style="margin-bottom:12px">
+        <div class="field">
+          <label class="f-lbl" style="color:var(--sage-dark)">Your Name</label>
+          <input class="wr-in" id="rName" type="text" placeholder="Juan Santos" required>
+        </div>
+        <div class="field">
+          <label class="f-lbl" style="color:var(--sage-dark)">Your Barber</label>
+          <select class="wr-sel">
+            <option>— Select —</option>
+            <option>Ernesto de la Cruz</option>
+            <option>Don Rodrigo Vega</option>
+            <option>Marco Antonio</option>
+          </select>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:12px">
+        <label class="f-lbl" style="color:var(--sage-dark)">Your Review</label>
+        <textarea class="wr-ta" id="rText" placeholder="Share your experience at The Grand Barber..." required></textarea>
+      </div>
+      <button type="submit" class="wr-sub">Submit Review</button>
+    </form>
+  </div>
+</section>
+
+<!-- Loyalty -->
+<div class="loyalty">
+  <div>
+    <div class="loyalty-title">The Grand Gentleman's Club</div>
+    <p class="loyalty-sub">Join our loyalty programme — earn points on every visit and unlock exclusive member privileges.</p>
+  </div>
+  <button class="loyalty-btn" onclick="showToast('Loyalty Programme — Opening Soon!')">Join the Club</button>
+</div>
+
+<!-- ═══ LOCATION ═══ -->
+<section id="location">
+  <div class="sec-head">
+    <div class="sec-tag" style="color:var(--sage-light)">Find Us</div>
+    <h2 class="sec-title sec-title-w">Our <em>Location</em></h2>
+    <div class="sec-line"></div>
+    <p class="sec-desc sec-desc-w" style="margin-top:14px">The biggest baranggay in the Philippines, Bagons Silang Caloocan.</p>
+  </div>
+  <div class="location-wrap">
+    <div class="map-block">
+      <div class="map-pin">📍</div>
+      <div class="map-addr">Glorietta Park · Caloocan · Metro Manila</div>
+    </div>
+    <div class="contact-col">
+      <div class="c-item"><div class="c-lbl">Address</div><div class="c-val">Glorietta Park</div><div class="c-sub">Caloocan, Metro Manila, Philippines 1402</div></div>
+      <div class="c-item"><div class="c-lbl">Contact</div><div class="c-val">+63 9701334419</div><div class="c-sub">reservations@artistapaglabas.ph</div></div>
+      <div class="c-item">
+        <div class="c-lbl">Operating Hours</div>
+        <div class="hours-grid">
+          <span class="h-day">Mon – Fri</span><span class="h-time">9:00 AM – 6:00 PM</span>
+          <span class="h-day">Saturday</span><span class="h-time">9:00 AM – 5:00 PM</span>
+          <span class="h-day">Sunday</span><span class="h-time h-closed">Closed</span>
+          <span class="h-day">Holidays</span><span class="h-time h-closed">Closed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="f-name">The Grand Barber</div>
+      <div class="f-sub">Est. 2024 · Caloocan · Metro Manila</div>
+      <p class="f-desc">A gentleman's sanctuary for over a century. Where tradition, craftsmanship, and quiet elegance meet in every cut.</p>
+    </div>
+    <div>
+      <div class="f-col-h">Services</div>
+      <ul class="f-links">
+        <li><a href="#services">Classic Gentleman's Cut</a></li>
+        <li><a href="#services">Royal Hot Towel Shave</a></li>
+        <li><a href="#services">The Grand Combo</a></li>
+        <li><a href="#services">Beard Sculpt & Style</a></li>
+        <li><a href="#services">Fade & Taper</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-h">Navigate</div>
+      <ul class="f-links">
+        <li><a href="#barbers">Our Barbers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#location">Find Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-h">Visit</div>
+      <ul class="f-links">
+        <li><a href="#">Glorietta Park</a></li>
+        <li><a href="#">Caloocan, Metro Manila</a></li>
+        <li><a href="#">+63 9701334419</a></li>
+        <li><a href="#">Mon – Sat · 9AM – 6PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-base">
+    <span class="f-copy">© 2026 Artista Paglabas · All Rights Reserved</span>
+    <span class="f-copy">A Gentleman's Sanctuary Since 2024</span>
+  </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal-box">
+    <div class="modal-icon">✦</div>
+    <div class="modal-title">Reservation Confirmed</div>
+    <div class="modal-line"></div>
+    <p class="modal-text" id="modalText">Your appointment has been reserved.</p>
+    <button class="modal-close" onclick="closeModal()">Dismiss</button>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast">
+  <span style="color:var(--sage-light)">✦</span>
+  <span id="toastMsg"></span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
